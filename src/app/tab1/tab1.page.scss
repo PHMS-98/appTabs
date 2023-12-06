@@ -1,0 +1,139 @@
+
+ion-grid {
+    --ion-grid-padding: 5px;
+  
+    --ion-grid-padding-xs: 5px;
+    --ion-grid-padding-sm: 5px;
+    --ion-grid-padding-md: 5px;
+    --ion-grid-padding-lg: 5px;
+    --ion-grid-padding-xl: 5px;
+  
+    --ion-grid-column-padding: 20px;
+  
+    --ion-grid-column-padding-xs: 20px;
+    --ion-grid-column-padding-sm: 20px;
+    --ion-grid-column-padding-md: 20px;
+    --ion-grid-column-padding-lg: 20px;
+    --ion-grid-column-padding-xl: 20px;
+  }
+
+  ion-grid{
+
+    background-color: rgb(184, 184, 184);
+
+  }
+
+  ion-col {
+
+    background-color: #000000;
+    border: solid 1px rgb(255, 255, 255);
+    color: #fff;
+    text-align: center;
+
+  }
+
+  #logo{
+    margin: 0;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  #fotoPerfilCol{
+
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    
+    
+  }
+  #logo1{
+
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+
+  }
+  #topo{
+
+    margin: 0;
+    padding: 0;
+
+    
+  }
+
+  #nome{
+
+    background-color: rgb(6, 185, 240);
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+  }
+
+  #apelido{
+
+    background-color: rgb(90, 255, 84);
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+   
+
+  }
+
+  #favoritos{
+
+    background-color:rgb(184, 184, 184);
+    color:rgb(0, 0, 0);
+    font-size: 100x;
+    /* font-weight: 100px; */
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+  #i1{
+
+    font-size: 50px;
+    padding: 0;
+    margin: 2px;
+    color:chartreuse;
+    border-radius: 15px;
+
+  }
+
+  #i2{
+
+    font-size: 50px;
+    padding: 0;
+    margin: 2px;
+    border-radius: 15px;
+  }
+
+  #i3{
+
+    font-size: 50px;
+    padding: 0;
+    margin: 2px;
+    border-radius: 15px;
+
+  } 
+
+ion-fab{
+
+    right: 25px;
+}
+
+img{
+
+  margin: 0;
+  width: 100%;
+  border-radius: 15px;
+
+}
+

@@ -7,6 +7,16 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  likes:number=0
+  addLikes(){
+    this.likes++
+  }
+
+  deslikes:number=0
+  addDeslikes(){
+    this.deslikes++
+  }
+
   constructor() {}
 
 }
