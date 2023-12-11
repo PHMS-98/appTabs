@@ -1,89 +1,90 @@
 <ion-content>
 
-  <ion-fab vertical="top" horizontal="end">
-
-    <ion-badge color="danger">{{likes}}</ion-badge>
-
-    <ion-fab-button (click)="addLikes()">
-    
-      <ion-icon name="add">  </ion-icon>
-      <ion-icon name="thumbs-up-sharp"> </ion-icon>
-    
-    </ion-fab-button>
+  <!--   <ion-fab vertical="top" horizontal="end">
   
-  </ion-fab>
-
-  <ion-fab vertical="top" horizontal="start">
-
-    <ion-badge color="danger">{{deslikes}}</ion-badge>
-
-    <ion-fab-button color="danger" (click)="addDeslikes()">
-    
-      <ion-icon name="add">  </ion-icon>
-      <ion-icon name="thumbs-down-sharp"> </ion-icon>
-    
-    </ion-fab-button>
+      <ion-badge color="danger">{{likes}}</ion-badge>
   
-  </ion-fab>
-
-  <ion-grid>
-
-    <ion-row id="topo">
-    
-      <ion-col id="logo1"> 
-        
-        <img id="logo" src="https://th.bing.com/th/id/OIG.SG4NLN5ApaXa6H_dShrf?pid=ImgGn"> 
+      <ion-fab-button (click)="addLikes()">
       
-      </ion-col>
+        <ion-icon name="add">  </ion-icon>
+        <ion-icon name="thumbs-up-sharp"> </ion-icon>
+      
+      </ion-fab-button>
     
-    </ion-row>
-<br>
-    <ion-row>
+    </ion-fab>
+  
+    <ion-fab vertical="top" horizontal="start">
+  
+      <ion-badge color="danger">{{deslikes}}</ion-badge>
+  
+      <ion-fab-button color="danger" (click)="addDeslikes()">
+      
+        <ion-icon name="add">  </ion-icon>
+        <ion-icon name="thumbs-down-sharp"> </ion-icon>
+      
+      </ion-fab-button>
     
-      <ion-col id="nome"> Pedro H. </ion-col>
-    
-    </ion-row>
-<br>
-
-    
-    <div id="favoritos">
-
-      <p> Nossos Favoritos </p>
-    
-    </div>
-    
-    <ion-row>
-    
-      <ion-col id="i1"> <img src="https://img.freepik.com/fotos-gratis/hamburguer-de-carne-grelhada-com-batatas-fritas-queijo-e-tomate-generative-ai_188544-8466.jpg?w=1380&t=st=1701718514~exp=1701719114~hmac=4cfea3ee2c1210bb2dd63906fbb2c5dfae8edc22e59e481ebc17b4a4a9ab1793"> </ion-col>
-      <ion-col id="i2"> <img src="https://img.freepik.com/fotos-premium/pacote-de-lanche-grande-de-fast-food-em-fundo-de-parede-de-tijolo-preto_434420-1041.jpg?w=1380"> </ion-col>
-      <ion-col id="i3"> <img src="https://cdn.abrahao.com.br/base/7cd/ace/91c/ideias-de-cardapio-para-hamburgueria.jpg"> </ion-col>
-    
-    </ion-row>
-
-    <ion-row>
-    
-      <ion-col id="i2"> <img src="https://cdn.ibahia.com/wp-content/uploads/2022/05/1210x720/hambuguer-1024x614-6.webp?fallback=https%3A%2F%2Fcdn.ibahia.com%2Fwp-content%2Fuploads%2F2022%2F05%2Fhambuguer-1024x614.jpg%3Fxid%3D928301&xid=928301"> </ion-col>
-      <ion-col id="i3"> <img src="https://einvestidor.estadao.com.br/wp-content/uploads/2023/05/meat-chicken-melt-foto-marinho-rodrigues-232_270520234420.jpg.webp"> </ion-col>
-      <ion-col id="i1"> <img src="https://img.freepik.com/fotos-premium/hamburgueres-cheeseburgers-ou-hamburgueres-com-bebida-gelada-e-batatas-fritas_440424-4654.jpg?w=1380"> </ion-col>
-    
-    </ion-row>
-
-    <ion-row>
-    
-      <ion-col id="i1"> <img src="https://img.freepik.com/fotos-premium/conjunto-de-hamburguer-de-cerveja-e-batatas-fritas_124865-8331.jpg?w=1380"> </ion-col>
-      <ion-col id="i2"> <img src="https://img.freepik.com/fotos-gratis/refeicao-de-hamburguer-grelhado-com-batatas-fritas-e-ia-generativa-de-queijo_188544-8488.jpg?w=1380&t=st=1701885221~exp=1701885821~hmac=513e493d94a10feb4d577124db354b2d5506cea40759e57f8fa47a96ab708a79"> </ion-col>
-      <ion-col id="i3"> <img src="https://moemaeregiao.com.br/wp-content/uploads/2022/09/Ac-807ougue-Vegano-Credito-Ana-Branco-45--777x437.jpg"> </ion-col>
-    
-    </ion-row>
-  <br>
-    <ion-row>
-    
-      <ion-col id="apelido"> Faça seu Pedido </ion-col>
-    
-    </ion-row>
-<br>
-  </ion-grid>
-
-
-
-</ion-content>
+    </ion-fab> -->
+  
+    <ion-grid>
+  
+      <ion-row id="topo">
+      
+        <ion-col id="logo1"> 
+          
+          <img id="logo" src="https://th.bing.com/th/id/OIG.SG4NLN5ApaXa6H_dShrf?pid=ImgGn"> 
+        
+        </ion-col>
+      
+      </ion-row>
+      <br>
+  
+      <ion-row>
+      
+        <ion-col id="nome"> <ion-icon id="user" name="person-circle"></ion-icon>: Pedro H. </ion-col>
+      
+      </ion-row>
+      <br>
+  
+      
+      <div id="favoritos">
+  
+        <p> <ion-icon name="star-sharp"></ion-icon> Favoritos <ion-icon name="star-sharp"></ion-icon> </p>
+      
+      </div>
+      
+      <ion-row>
+      
+        <ion-col id="i1"> <img src="https://img.freepik.com/fotos-gratis/hamburguer-de-carne-grelhada-com-batatas-fritas-queijo-e-tomate-generative-ai_188544-8466.jpg?w=1380&t=st=1701718514~exp=1701719114~hmac=4cfea3ee2c1210bb2dd63906fbb2c5dfae8edc22e59e481ebc17b4a4a9ab1793"> </ion-col>
+        <ion-col id="i2"> <img src="https://img.freepik.com/fotos-premium/pacote-de-lanche-grande-de-fast-food-em-fundo-de-parede-de-tijolo-preto_434420-1041.jpg?w=1380"> </ion-col>
+        <ion-col id="i3"> <img src="https://cdn.abrahao.com.br/base/7cd/ace/91c/ideias-de-cardapio-para-hamburgueria.jpg"> </ion-col>
+      
+      </ion-row>
+  
+      <ion-row>
+      
+        <ion-col id="i2"> <img src="https://cdn.ibahia.com/wp-content/uploads/2022/05/1210x720/hambuguer-1024x614-6.webp?fallback=https%3A%2F%2Fcdn.ibahia.com%2Fwp-content%2Fuploads%2F2022%2F05%2Fhambuguer-1024x614.jpg%3Fxid%3D928301&xid=928301"> </ion-col>
+        <ion-col id="i3"> <img src="https://einvestidor.estadao.com.br/wp-content/uploads/2023/05/meat-chicken-melt-foto-marinho-rodrigues-232_270520234420.jpg.webp"> </ion-col>
+        <ion-col id="i1"> <img src="https://img.freepik.com/fotos-premium/hamburgueres-cheeseburgers-ou-hamburgueres-com-bebida-gelada-e-batatas-fritas_440424-4654.jpg?w=1380"> </ion-col>
+      
+      </ion-row>
+  
+      <ion-row>
+      
+        <ion-col id="i1"> <img src="https://img.freepik.com/fotos-premium/conjunto-de-hamburguer-de-cerveja-e-batatas-fritas_124865-8331.jpg?w=1380"> </ion-col>
+        <ion-col id="i2"> <img src="https://img.freepik.com/fotos-gratis/refeicao-de-hamburguer-grelhado-com-batatas-fritas-e-ia-generativa-de-queijo_188544-8488.jpg?w=1380&t=st=1701885221~exp=1701885821~hmac=513e493d94a10feb4d577124db354b2d5506cea40759e57f8fa47a96ab708a79"> </ion-col>
+        <ion-col id="i3"> <img src="https://moemaeregiao.com.br/wp-content/uploads/2022/09/Ac-807ougue-Vegano-Credito-Ana-Branco-45--777x437.jpg"> </ion-col>
+      
+      </ion-row>
+      <br>
+      <ion-row>
+      
+        <ion-col id="apelido"> Faça seu Pedido </ion-col>
+      
+      </ion-row>
+      <br>
+    </ion-grid>
+  
+  
+  
+  </ion-content>
